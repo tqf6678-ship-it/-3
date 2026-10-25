@@ -1,0 +1,35 @@
+/* 公告管理 */
+
+.announcement-title-cell {
+  max-width: 480px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.announcement-view-title {
+  margin: 0 0 6px;
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.announcement-meta {
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.announcement-content {
+  color: var(--text-regular);
+  font-size: 13.5px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.announcement-form-textarea {
+  min-height: 160px;
+  resize: vertical;
+}

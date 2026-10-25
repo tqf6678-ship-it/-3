@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>系统信息</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+  <link rel="stylesheet" href="/static/css/about.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="about-hero">
+      <div class="about-logo">教</div>
+      <div>
+        <h1>教务管理系统</h1>
+        <p>School Administration System · 版本 1.0.0</p>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <section class="about-card">
+        <h2>系统概况</h2>
+        <dl class="about-list">
+          <div><dt>系统名称</dt><dd>教务管理系统</dd></div>
+          <div><dt>当前版本</dt><dd>1.0.0</dd></div>
+          <div><dt>后台框架</dt><dd>FastAPI + Bootstrap 5.3.3</dd></div>
+          <div><dt>登录方式</dt><dd>前端演示登录</dd></div>
+        </dl>
+      </section>
+
+      <section class="about-card">
+        <h2>技术栈</h2>
+        <dl class="about-list">
+          <div><dt>后端</dt><dd>Python 3.11 / FastAPI</dd></div>
+          <div><dt>数据库</dt><dd>MySQL · InnoDB</dd></div>
+          <div><dt>数据访问</dt><dd>PyMySQL + DBUtils 连接池</dd></div>
+          <div><dt>前端</dt><dd>原生 HTML / CSS / JavaScript</dd></div>
+        </dl>
+      </section>
+
+      <section class="about-card">
+        <h2>功能模块</h2>
+        <ul class="about-modules">
+          <li>概览统计</li>
+          <li>学生信息 / 学生报到</li>
+          <li>教师管理</li>
+          <li>班级管理</li>
+          <li>课程管理</li>
+          <li>课表管理</li>
+          <li>成绩管理</li>
+          <li>公告管理</li>
+        </ul>
+      </section>
+
+      <section class="about-card">
+        <h2>数据与备份</h2>
+        <dl class="about-list">
+          <div><dt>数据库</dt><dd>school_db_study</dd></div>
+          <div><dt>备份目录</dt><dd>org/backup</dd></div>
+          <div><dt>建表脚本</dt><dd>org/sql</dd></div>
+        </dl>
+        <p class="about-note">
+          删除学生、教师等操作可能连带清理关联数据，请谨慎操作；重要数据建议先在备份目录留存。
+        </p>
+      </section>
+    </div>
+
+    <p class="about-footer">© 2026 教务管理系统 · 教学演示项目</p>
+  </div>
+</body>
+</html>

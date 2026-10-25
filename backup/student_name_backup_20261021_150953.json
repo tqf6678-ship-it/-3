@@ -1,0 +1,247 @@
+{
+  "backup_time": "20261021_150953",
+  "students": [
+    {
+      "id": 1,
+      "name": "张三",
+      "gender": "man",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-08-31 00:00:00",
+      "create_time": "2026-10-09 11:33:02",
+      "class_id": 1
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "gender": "woman",
+      "age": 18,
+      "teacher_id": 4,
+      "grade": "高三",
+      "enrollment_date": "2026-09-01 00:00:00",
+      "create_time": "2026-10-09 11:33:02",
+      "class_id": 4
+    },
+    {
+      "id": 3,
+      "name": "王无",
+      "gender": "woman",
+      "age": 17,
+      "teacher_id": 3,
+      "grade": "高二",
+      "enrollment_date": "2026-08-30 00:00:00",
+      "create_time": "2026-10-09 11:33:02",
+      "class_id": 3
+    },
+    {
+      "id": 4,
+      "name": "赵六",
+      "gender": "man",
+      "age": 16,
+      "teacher_id": 2,
+      "grade": "高一",
+      "enrollment_date": "2026-06-11 13:50:30",
+      "create_time": "2026-10-10 14:52:06",
+      "class_id": 1
+    },
+    {
+      "id": 8,
+      "name": "林间",
+      "gender": "男",
+      "age": 18,
+      "teacher_id": 3,
+      "grade": "高二",
+      "enrollment_date": "2026-10-03 00:00:00",
+      "create_time": "2026-10-13 10:54:53",
+      "class_id": 3
+    },
+    {
+      "id": 12,
+      "name": "sefs",
+      "gender": "string",
+      "age": 18,
+      "teacher_id": 2,
+      "grade": "高一",
+      "enrollment_date": "2026-10-14 02:12:37",
+      "create_time": "2026-10-14 10:15:20",
+      "class_id": 1
+    },
+    {
+      "id": 17,
+      "name": "张三",
+      "gender": "男",
+      "age": 16,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-16 00:00:00",
+      "create_time": "2026-10-16 15:06:25",
+      "class_id": 1
+    },
+    {
+      "id": 18,
+      "name": "张三",
+      "gender": "男",
+      "age": 16,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-16 00:00:00",
+      "create_time": "2026-10-16 15:07:30",
+      "class_id": 1
+    },
+    {
+      "id": 19,
+      "name": "张三",
+      "gender": "男",
+      "age": 16,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-16 00:00:00",
+      "create_time": "2026-10-16 15:07:54",
+      "class_id": 1
+    },
+    {
+      "id": 20,
+      "name": "张三",
+      "gender": "男",
+      "age": 16,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-16 00:00:00",
+      "create_time": "2026-10-16 15:08:36",
+      "class_id": 1
+    },
+    {
+      "id": 21,
+      "name": "张三",
+      "gender": "男",
+      "age": 16,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-16 00:00:00",
+      "create_time": "2026-10-16 15:10:16",
+      "class_id": 1
+    },
+    {
+      "id": 22,
+      "name": "张三",
+      "gender": "男",
+      "age": 16,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-16 00:00:00",
+      "create_time": "2026-10-16 15:10:30",
+      "class_id": 1
+    },
+    {
+      "id": 23,
+      "name": "新同学11",
+      "gender": "男",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-09-09 00:00:00",
+      "create_time": "2026-10-16 16:05:56",
+      "class_id": 2
+    },
+    {
+      "id": 26,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 11:45:55",
+      "class_id": 2
+    },
+    {
+      "id": 27,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 11:45:55",
+      "class_id": 2
+    },
+    {
+      "id": 28,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 11:47:42",
+      "class_id": 2
+    },
+    {
+      "id": 29,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 11:47:42",
+      "class_id": 2
+    },
+    {
+      "id": 30,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 13:29:20",
+      "class_id": 2
+    },
+    {
+      "id": 31,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 13:29:20",
+      "class_id": 2
+    },
+    {
+      "id": 32,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 13:45:01",
+      "class_id": 2
+    },
+    {
+      "id": 33,
+      "name": "张三四",
+      "gender": "女",
+      "age": 18,
+      "teacher_id": 1,
+      "grade": "高一",
+      "enrollment_date": "2026-10-19 00:00:00",
+      "create_time": "2026-10-19 13:45:01",
+      "class_id": 2
+    },
+    {
+      "id": 34,
+      "name": "deaf",
+      "gender": "男",
+      "age": 20,
+      "teacher_id": 2,
+      "grade": "高二",
+      "enrollment_date": "2026-10-19 06:31:34",
+      "create_time": "2026-10-19 14:31:42",
+      "class_id": 3
+    }
+  ]
+}

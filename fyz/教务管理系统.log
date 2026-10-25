@@ -1,0 +1,1554 @@
+2026-10-19 19:25:29,868 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：22条课程信息
+2026-10-19 19:26:51,974 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：4条课程信息
+2026-10-19 19:26:59,934 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：id：2课程信息
+2026-10-19 19:28:00,747 - AnyIO worker thread - [INFO] - org.fyz.subject.service:增：5条课程信息
+2026-10-20 09:18:25,724 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-20 09:21:20,455 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-20 09:21:31,892 - MainThread - [ERROR] - main:请求 /tea/all 发生系统异常：maximum recursion depth exceeded
+2026-10-20 09:24:12,534 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：7条老师信息
+2026-10-20 09:24:20,360 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：2的老师信息
+2026-10-20 09:24:25,010 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：26的老师信息
+2026-10-20 09:24:41,197 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:删：一个老师信息：{'id': 11, 'name': '沈老师', 'gender': '女', 'age': 18, 'subject': '英语', 'phone': '18759468842', 'create_time': datetime.datetime(2026, 10, 13, 16, 6, 4)}
+2026-10-20 09:24:45,598 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-20 09:34:03,846 - MainThread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-20 09:39:04,129 - MainThread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-20 09:44:04,289 - MainThread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-20 10:20:38,003 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-20 10:24:37,197 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-20 10:27:00,128 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-20 11:38:59,954 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-20 11:40:03,265 - MainThread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-20 11:40:20,247 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-20 13:50:35,918 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：0条学生信息
+2026-10-20 13:50:45,012 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-20 18:50:16,685 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-21 11:32:04,279 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页2条 关键字= 共22条
+2026-10-21 11:32:04,323 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 11:32:04,366 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 11:32:04,433 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-21 12:50:23,461 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页2条 关键字= 共22条
+2026-10-21 12:50:23,653 - MainThread - [ERROR] - main:请求 /tea/add 发生系统异常：(1054, "Unknown column 'subject' in 'field list'")
+2026-10-21 12:50:35,584 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-21 12:52:43,382 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：36条学生信息
+2026-10-21 12:52:43,389 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时测试学生 共1条
+2026-10-21 12:52:43,394 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号36学生信息
+2026-10-21 12:52:43,404 - AnyIO worker thread - [INFO] - org.fyz.student.service:改：学生信息 id=36
+2026-10-21 12:52:43,408 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号36学生信息
+2026-10-21 12:52:43,417 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生信息 id=36
+2026-10-21 12:52:43,446 - AnyIO worker thread - [INFO] - org.fyz.subject.service:增：6条课程信息
+2026-10-21 12:52:43,453 - AnyIO worker thread - [INFO] - org.fyz.subject.service:改：课程信息 id=6
+2026-10-21 12:52:43,453 - MainThread - [ERROR] - main:请求 /sub/update 发生系统异常：subject_id
+2026-10-21 12:52:43,492 - AnyIO worker thread - [INFO] - org.fyz.subject.service:删：课程信息 id=6
+2026-10-21 12:53:05,733 - AnyIO worker thread - [INFO] - org.fyz.subject.service:增：7条课程信息
+2026-10-21 12:53:05,755 - AnyIO worker thread - [INFO] - org.fyz.subject.service:改：课程信息 id=7
+2026-10-21 12:53:05,759 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:53:05,784 - AnyIO worker thread - [INFO] - org.fyz.subject.service:删：课程信息 id=7
+2026-10-21 12:53:05,861 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：7条老师信息
+2026-10-21 12:53:05,866 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：14的老师信息
+2026-10-21 12:53:05,874 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:删：一个老师信息：{'id': 14, 'name': '临时测试教师', 'gender': '男', 'age': 30, 'subject_id': 1, 'phone': '000000', 'create_time': datetime.datetime(2026, 10, 21, 12, 53, 5), 'class_id': 99}
+2026-10-21 12:53:17,462 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:17,463 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:17,465 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 12:53:18,489 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:18,489 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:18,511 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 12:53:19,518 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:19,518 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:20,553 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:20,553 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:36,451 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:36,451 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:36,452 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 12:53:37,421 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:37,421 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:37,441 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 12:53:38,424 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:38,425 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:53:39,518 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:53:39,518 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:03,340 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:03,341 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:54:03,363 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 12:54:06,344 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：37条学生信息
+2026-10-21 12:54:06,350 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共23条
+2026-10-21 12:54:08,553 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时UI学生 共1条
+2026-10-21 12:54:08,560 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号37学生信息
+2026-10-21 12:54:09,489 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:09,490 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:54:11,988 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-21 12:54:12,928 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:12,929 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:54:15,944 - AnyIO worker thread - [INFO] - org.fyz.subject.service:增：8条课程信息
+2026-10-21 12:54:15,950 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:54:15,950 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:17,758 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:54:18,330 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:54:18,331 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:18,334 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共23条
+2026-10-21 12:54:20,811 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:20,811 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:54:20,816 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-21 12:54:22,616 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生信息 id=37
+2026-10-21 12:54:22,625 - AnyIO worker thread - [INFO] - org.fyz.subject.service:删：课程信息 id=8
+2026-10-21 12:54:56,244 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：38条学生信息
+2026-10-21 12:54:56,251 - AnyIO worker thread - [INFO] - org.fyz.subject.service:增：9条课程信息
+2026-10-21 12:54:56,296 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:54:56,296 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:54:56,318 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-21 12:54:58,777 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时UI编辑 共1条
+2026-10-21 12:55:00,509 - AnyIO worker thread - [INFO] - org.fyz.student.service:改：学生信息 id=38
+2026-10-21 12:55:00,513 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时UI编辑 共1条
+2026-10-21 12:55:02,306 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号38学生信息
+2026-10-21 12:55:02,824 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生信息 id=38
+2026-10-21 12:55:02,829 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时UI编辑 共0条
+2026-10-21 12:55:04,651 - MainThread - [WARNING] - main:请求 /stu/one/38 业务异常：学生不存在
+2026-10-21 12:55:04,679 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:55:04,679 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:55:07,703 - AnyIO worker thread - [INFO] - org.fyz.subject.service:改：课程信息 id=9
+2026-10-21 12:55:07,709 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:55:07,709 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:55:09,515 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 12:55:10,034 - AnyIO worker thread - [INFO] - org.fyz.subject.service:删：课程信息 id=9
+2026-10-21 12:55:10,039 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 12:55:10,039 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 12:55:11,848 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:06:56,305 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:06:56,307 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:06:56,307 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:06:57,947 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:06:57,947 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:06:57,955 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:06:59,382 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:06:59,383 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:00,418 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:00,420 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:03,712 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:03,714 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:03,720 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:07:07,198 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:07,199 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:12,928 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:12,929 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:19,483 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:19,483 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:19,490 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:07:20,399 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:20,400 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:22,527 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：1的老师信息
+2026-10-21 13:07:26,883 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：2的老师信息
+2026-10-21 13:07:28,683 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：3的老师信息
+2026-10-21 13:07:30,458 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:07:30,460 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:07:30,465 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:54,148 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=张 共15条
+2026-10-21 13:29:56,947 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:58,436 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:58,751 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:58,983 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:59,440 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:59,717 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:29:59,904 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:00,130 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:00,385 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:00,558 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:00,747 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:00,910 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:01,083 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:01,284 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:01,609 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:07,025 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:30:07,025 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:30:07,027 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:30:25,999 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:30:26,000 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:30:26,007 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:30:27,027 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:30:27,029 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:32:06,741 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:32:06,741 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:32:06,742 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:33:04,535 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:33:04,536 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:33:04,541 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:33:06,728 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 13:33:08,171 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:33:08,172 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:33:10,954 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：5条课程信息
+2026-10-21 13:33:10,957 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:33:34,069 - AnyIO worker thread - [INFO] - org.fyz.subject.service:增：10条课程信息
+2026-10-21 13:33:34,076 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:33:34,077 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:33:38,474 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:33:38,474 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:33:39,161 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:33:39,164 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:33:39,170 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:35:21,876 - AnyIO worker thread - [INFO] - org.fyz.student.service:改：学生信息 id=12
+2026-10-21 13:35:21,881 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:37:44,711 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:37:44,713 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:37:44,713 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:37:47,919 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:37:47,919 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:37:47,921 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:39:02,315 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:39:02,315 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:39:02,316 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:40:54,726 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:40:54,729 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:40:54,729 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:41:00,068 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:41:00,070 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:41:00,071 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:42:26,716 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:42:26,718 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:26,719 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:32,445 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:32,448 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:32,455 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:42:33,251 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:33,257 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:33,957 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:33,957 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:35,258 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:35,259 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:35,261 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:42:37,072 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:37,072 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:37,084 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:42:37,573 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:37,576 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:38,028 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:38,028 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:38,682 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:38,685 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:42:38,692 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 13:42:39,050 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:42:39,051 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:55:15,385 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:55:15,385 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:55:15,386 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 13:55:42,063 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 13:55:42,065 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 13:55:42,070 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:11:20,585 - MainThread - [ERROR] - main:请求 /cls/page 发生系统异常：(1146, "Table 'school_db_study.classes' doesn't exist")
+2026-10-21 14:11:36,567 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 14:11:36,567 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:11:36,568 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:11:38,755 - MainThread - [ERROR] - main:请求 /cls/page 发生系统异常：(1146, "Table 'school_db_study.classes' doesn't exist")
+2026-10-21 14:15:30,781 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:15:30,782 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:15:30,783 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 14:15:32,251 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:15:32,252 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:15:32,621 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共0条
+2026-10-21 14:16:19,573 - AnyIO worker thread - [INFO] - org.fyz.classes.service:增：1条班级信息
+2026-10-21 14:16:19,584 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共1条
+2026-10-21 14:16:57,502 - AnyIO worker thread - [INFO] - org.fyz.classes.service:增：2条班级信息
+2026-10-21 14:16:57,508 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共2条
+2026-10-21 14:22:14,098 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:22:14,099 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:22:14,106 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 14:56:14,195 - MainThread - [ERROR] - main:请求 /sch/list 发生系统异常：(1146, "Table 'school_db_study.class_schedules' doesn't exist")
+2026-10-21 14:56:33,338 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 14:56:33,340 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:56:33,340 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:56:35,524 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:56:35,525 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：2条班级信息
+2026-10-21 14:56:35,525 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:56:35,533 - MainThread - [ERROR] - main:请求 /sch/list 发生系统异常：(1146, "Table 'school_db_study.class_schedules' doesn't exist")
+2026-10-21 14:56:38,484 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共2条
+2026-10-21 14:56:52,143 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:56:52,144 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:56:52,144 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 14:56:54,340 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：2条班级信息
+2026-10-21 14:56:54,341 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:56:54,341 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:56:54,348 - MainThread - [ERROR] - main:请求 /sch/list 发生系统异常：(1146, "Table 'school_db_study.class_schedules' doesn't exist")
+2026-10-21 14:56:57,334 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共2条
+2026-10-21 14:57:17,676 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:57:17,677 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:57:17,678 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 14:57:19,882 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：2条班级信息
+2026-10-21 14:57:19,883 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:57:19,883 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:57:19,889 - MainThread - [ERROR] - main:请求 /sch/list 发生系统异常：(1146, "Table 'school_db_study.class_schedules' doesn't exist")
+2026-10-21 14:57:22,867 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共2条
+2026-10-21 14:57:41,994 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:57:41,995 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:57:41,995 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 14:57:44,185 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：2条班级信息
+2026-10-21 14:57:44,186 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:57:44,186 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:57:44,192 - MainThread - [ERROR] - main:请求 /sch/list 发生系统异常：(1146, "Table 'school_db_study.class_schedules' doesn't exist")
+2026-10-21 14:57:47,159 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共2条
+2026-10-21 14:57:47,473 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：2条班级信息
+2026-10-21 14:57:47,474 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 14:57:47,474 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 14:57:47,479 - MainThread - [ERROR] - main:请求 /sch/list 发生系统异常：(1146, "Table 'school_db_study.class_schedules' doesn't exist")
+2026-10-21 15:00:22,635 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:00:22,635 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:00:22,636 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:00:30,898 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:00:30,898 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:00:30,901 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：2条班级信息
+2026-10-21 15:00:30,910 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 0 条
+2026-10-21 15:00:40,974 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 0 条
+2026-10-21 15:04:08,152 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:04:08,175 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:04:08,191 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:04:25,833 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:04:25,836 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:04:25,848 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:05:54,967 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:05:54,967 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:05:54,969 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:05:59,628 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:06:03,604 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:03,604 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:06,098 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:06:06,605 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:06:06,606 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:06,608 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:06,617 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 0 条
+2026-10-21 15:06:08,355 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:06:10,324 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:06:10,325 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:10,326 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:10,332 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 0 条
+2026-10-21 15:06:11,554 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:06:12,602 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:12,604 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:12,611 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:06:15,723 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:15,724 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:15,724 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:06:16,598 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:16,599 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:16,607 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:06:18,162 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:06:19,142 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:06:20,387 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:06:23,764 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:06:36,036 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:06:36,037 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:06:36,047 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:06:41,763 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:06:43,204 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:10:10,835 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:10:10,862 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:10:10,867 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:10:10,888 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级3课表 25 条
+2026-10-21 15:10:10,902 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级4课表 25 条
+2026-10-21 15:10:10,917 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:10:10,921 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:10:10,924 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级3课表 25 条
+2026-10-21 15:10:10,927 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级4课表 25 条
+2026-10-21 15:10:24,452 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:10:24,453 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:10:24,454 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:10:26,622 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:10:26,622 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:10:26,623 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:10:26,629 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:11:12,637 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:11:12,637 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:11:12,639 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:11:15,933 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:11:15,933 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:11:15,941 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:11:16,664 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:11:16,665 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:11:17,560 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:11:18,094 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:11:18,094 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:11:18,101 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:11:20,937 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:11:22,055 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:11:23,801 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:11:33,493 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:11:34,490 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:11:34,977 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:11:36,725 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:11:36,725 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:11:37,322 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:11:38,034 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:11:38,036 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:11:38,036 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:11:38,045 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:11:42,380 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:11:43,324 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级3课表 25 条
+2026-10-21 15:11:44,764 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级4课表 25 条
+2026-10-21 15:11:59,592 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:12:01,792 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:12:01,792 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:12:01,793 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:12:02,801 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:12:02,802 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:12:02,808 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:12:03,718 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:12:03,718 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:12:04,345 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:12:04,870 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:12:04,871 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:12:04,874 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:12:04,881 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:12:05,718 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:12:05,718 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:12:05,725 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:12:08,388 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:12:08,388 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:12:08,390 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:16:26,645 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:16:26,656 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:16:26,665 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=checked 关键字= 共1条
+2026-10-21 15:16:26,673 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:16:26,735 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=1
+2026-10-21 15:16:26,766 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:批量报到：班级 id=1 新增 9 人
+2026-10-21 15:16:26,798 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=1 状态=checked 关键字= 共9条
+2026-10-21 15:16:46,716 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:16:46,716 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:16:46,718 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:16:48,903 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:16:48,913 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:16:53,428 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=checked 关键字= 共0条
+2026-10-21 15:17:10,193 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:10,196 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:10,205 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:17:10,519 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:10,519 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:11,691 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:17:11,691 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:11,692 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:11,701 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:17:12,399 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:17:13,209 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:13,210 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:13,536 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:13,537 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:17:13,538 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:13,545 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:17:14,300 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:14,301 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:24,716 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:24,717 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:24,719 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:17:26,899 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:17:26,911 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:17:54,635 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:17:54,635 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:17:54,636 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:17:56,837 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:17:56,843 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:17:59,660 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:17:59,665 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:18:15,920 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:18:15,920 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:18:15,921 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:18:18,111 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:18:18,121 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:18:22,636 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=checked 关键字= 共0条
+2026-10-21 15:18:41,102 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:18:41,103 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:18:41,103 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:18:43,299 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:18:43,310 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:18:46,297 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:18:46,302 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:18:49,223 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=1
+2026-10-21 15:18:49,228 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:18:52,441 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=checked 关键字= 共0条
+2026-10-21 15:19:05,330 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:19:05,331 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:19:05,332 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:19:07,529 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:19:07,539 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:19:10,509 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:19:10,514 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:19:13,428 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=1
+2026-10-21 15:19:13,432 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:19:15,040 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=checked 关键字= 共0条
+2026-10-21 15:19:26,995 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:19:26,995 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:19:26,997 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:19:29,193 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:19:29,204 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:19:32,178 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:19:32,184 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:19:35,093 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=1
+2026-10-21 15:19:35,096 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:19:36,699 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=1 状态=all 关键字= 共9条
+2026-10-21 15:19:39,422 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:批量报到：班级 id=1 新增 9 人
+2026-10-21 15:19:39,427 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=1 状态=all 关键字= 共9条
+2026-10-21 15:19:41,469 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=checked 关键字= 共9条
+2026-10-21 15:19:41,477 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=1
+2026-10-21 15:19:41,493 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=4
+2026-10-21 15:19:41,508 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=12
+2026-10-21 15:19:41,524 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=17
+2026-10-21 15:19:41,540 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=18
+2026-10-21 15:19:41,556 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=19
+2026-10-21 15:19:41,572 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=20
+2026-10-21 15:19:41,587 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=21
+2026-10-21 15:19:41,603 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:撤销报到：学生 id=22
+2026-10-21 15:20:30,144 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:20:30,145 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:20:30,149 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:20:32,881 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:20:32,893 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:20:53,506 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=1
+2026-10-21 15:20:53,515 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:20:56,105 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=4
+2026-10-21 15:20:56,115 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:20:57,540 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=12
+2026-10-21 15:20:57,548 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:20:58,974 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:20:58,975 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:20:59,308 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:20:59,317 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:25:35,777 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=8 共1条
+2026-10-21 15:25:35,796 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=林间 共1条
+2026-10-21 15:25:35,811 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=张 共15条
+2026-10-21 15:25:35,829 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 5 门
+2026-10-21 15:25:35,846 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生8成绩 2 门
+2026-10-21 15:25:35,852 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 5 门
+2026-10-21 15:25:35,858 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生8成绩 1 门
+2026-10-21 15:25:54,119 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:25:54,119 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:25:54,120 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:26:22,600 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:26:22,601 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:26:22,602 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:26:27,010 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=林间 共1条
+2026-10-21 15:26:28,525 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 5 门
+2026-10-21 15:26:29,734 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生8成绩 2 门
+2026-10-21 15:26:29,738 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 5 门
+2026-10-21 15:28:11,915 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:28:11,915 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:11,920 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:19,638 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=2 共1条
+2026-10-21 15:28:23,574 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生2科目 5 门
+2026-10-21 15:28:33,325 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:28:33,326 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:33,327 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:34,001 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:34,003 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:34,010 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:28:35,014 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:28:35,025 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:28:36,912 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:36,913 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:42,281 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:28:42,699 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:42,699 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:42,706 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:28:43,125 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:28:43,134 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:28:43,637 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:28:43,638 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:43,641 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:43,649 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:28:45,072 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:28:49,255 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:28:49,256 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:49,258 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:49,264 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:28:50,996 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:28:50,996 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:28:51,318 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:28:51,326 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:29:04,515 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:04,516 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:05,005 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:29:05,449 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:29:05,450 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:05,452 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:05,458 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:29:06,575 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:29:07,068 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:07,069 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:08,068 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:29:08,068 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:08,069 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:08,076 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:29:08,594 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:08,595 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:09,185 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:29:09,194 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:29:09,552 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:09,553 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:09,560 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:29:10,913 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:10,913 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:34,208 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:29:34,211 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:29:34,220 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:33:08,171 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生8学习科目 5 门
+2026-10-21 15:33:08,196 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生8补充科目 subject_id=10
+2026-10-21 15:33:08,201 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生8学习科目 6 门
+2026-10-21 15:33:08,223 - MainThread - [WARNING] - main:请求 /stu/subjects/add 业务异常：该科目已添加
+2026-10-21 15:33:08,251 - MainThread - [WARNING] - main:请求 /stu/subjects/add 业务异常：该科目已在班级课表中，无需重复添加
+2026-10-21 15:33:08,266 - MainThread - [WARNING] - main:请求 /stu/subjects/add 业务异常：科目不存在
+2026-10-21 15:33:08,297 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 6 门
+2026-10-21 15:33:08,318 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生8成绩 1 门
+2026-10-21 15:33:08,324 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 6 门
+2026-10-21 15:33:29,851 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:33:29,853 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:33:29,853 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:33:32,037 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:33:32,037 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:33:32,044 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:33:34,042 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=林间 共1条
+2026-10-21 15:33:35,553 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生8学习科目 5 门
+2026-10-21 15:33:36,771 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生8补充科目 subject_id=10
+2026-10-21 15:33:36,777 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生8学习科目 6 门
+2026-10-21 15:33:40,458 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=林间 共1条
+2026-10-21 15:33:41,972 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 6 门
+2026-10-21 15:34:40,766 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:34:40,767 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:34:40,768 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:34:43,755 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:34:43,757 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:34:47,018 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:34:47,019 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:34:47,020 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:34:47,029 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:34:47,590 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:34:47,590 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:34:47,926 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:34:47,928 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:34:47,935 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:34:49,661 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生1学习科目 5 门
+2026-10-21 15:34:54,617 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生1补充科目 subject_id=10
+2026-10-21 15:34:54,623 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生1学习科目 6 门
+2026-10-21 15:35:03,269 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:35:03,270 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:35:03,616 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:35:04,029 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:35:04,029 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:35:04,031 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:35:04,037 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:35:10,708 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:35:10,708 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:38:13,300 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：39条学生信息
+2026-10-21 15:38:13,327 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:增：课表 id=101 班级=1 星期6第1节
+2026-10-21 15:38:13,365 - MainThread - [WARNING] - main:请求 /tea/del/15 业务异常：该教师名下还有 1 名学生，请选择接替教师后再删除
+2026-10-21 15:38:13,380 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：15的老师信息
+2026-10-21 15:38:13,399 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:删：教师 id=15，转移学生 1 人，删除排课 1 条，接替教师=1
+2026-10-21 15:38:13,427 - MainThread - [WARNING] - main:请求 /tea/one/15 业务异常：教师不存在
+2026-10-21 15:38:13,443 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号39学生信息
+2026-10-21 15:38:13,460 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:38:13,478 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生信息 id=39
+2026-10-21 15:38:13,509 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:增：课表 id=102 班级=2 星期6第2节
+2026-10-21 15:38:13,540 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:删：教师 id=16，转移学生 0 人，删除排课 1 条，接替教师=无
+2026-10-21 15:38:13,552 - MainThread - [WARNING] - main:请求 /tea/one/16 业务异常：教师不存在
+2026-10-21 15:38:13,569 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 25 条
+2026-10-21 15:38:26,779 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：40条学生信息
+2026-10-21 15:38:26,795 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:增：课表 id=103 班级=1 星期6第3节
+2026-10-21 15:38:45,935 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：7条老师信息
+2026-10-21 15:38:45,936 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:38:45,937 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共23条
+2026-10-21 15:38:48,118 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：7条老师信息
+2026-10-21 15:38:48,118 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:38:52,774 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:删：教师 id=17，转移学生 1 人，删除排课 1 条，接替教师=1
+2026-10-21 15:38:52,778 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:38:52,778 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:38:54,980 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:38:54,984 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时删除学生C 共1条
+2026-10-21 15:38:54,994 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 25 条
+2026-10-21 15:45:22,380 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:45:22,381 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:45:22,385 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:25,493 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:25,496 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:45:31,423 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:45:31,426 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:31,432 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:45:36,403 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：6条老师信息
+2026-10-21 15:45:36,403 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:49,647 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:删：教师 id=9，转移学生 0 人，删除排课 16 条，接替教师=无
+2026-10-21 15:45:49,653 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:45:49,654 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:51,454 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:45:51,466 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:45:51,746 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:45:51,747 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:51,755 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:45:53,584 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:45:53,592 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:45:54,122 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:45:54,126 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:45:54,134 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:45:55,041 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:45:55,483 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:45:57,148 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:45:57,928 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:45:59,264 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:45:59,273 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:46:00,003 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:46:00,003 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:46:00,634 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:46:00,642 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 15:46:01,147 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:46:01,147 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:46:02,869 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:46:02,870 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:46:02,877 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:46:08,032 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:46:09,516 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:46:11,150 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:46:12,307 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:46:14,010 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第2页 每页10条 关键字= 共22条
+2026-10-21 15:46:14,841 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 15:46:16,026 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 15:46:51,059 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生1学习科目 6 门
+2026-10-21 15:46:53,694 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生2学习科目 5 门
+2026-10-21 15:46:56,767 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生2补充科目 subject_id=10
+2026-10-21 15:46:56,774 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生2学习科目 6 门
+2026-10-21 15:46:59,662 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 15:47:00,225 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:47:00,228 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:47:00,228 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:47:00,237 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 15:47:01,522 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:47:01,522 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:47:01,524 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:47:01,530 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 15:47:02,536 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:47:02,536 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:47:11,204 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=2 共1条
+2026-10-21 15:47:12,704 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生2科目 6 门
+2026-10-21 15:47:23,477 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生2成绩 3 门
+2026-10-21 15:47:23,490 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生2科目 6 门
+2026-10-21 15:51:53,848 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:02,238 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:02,256 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=1 科目=0 分数=None-None 共2条
+2026-10-21 15:52:02,271 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=1 分数=None-None 共2条
+2026-10-21 15:52:02,287 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字=张明 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 15:52:02,303 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=90.0-95.0 共2条
+2026-10-21 15:52:02,306 - MainThread - [WARNING] - main:请求 /sco/list 业务异常：最低分不能大于最高分
+2026-10-21 15:52:02,334 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:02,349 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:02,365 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:19,499 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:52:19,500 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:52:19,501 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:52:21,687 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:52:21,687 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:52:21,699 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:24,187 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=1 科目=0 分数=None-None 共2条
+2026-10-21 15:52:25,399 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:26,601 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=1 分数=None-None 共2条
+2026-10-21 15:52:27,818 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:29,035 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=90.0-None 共4条
+2026-10-21 15:52:42,439 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:52:42,439 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:52:42,441 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:52:44,633 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:52:44,633 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:52:44,643 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:47,132 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=1 科目=0 分数=None-None 共2条
+2026-10-21 15:52:48,351 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:49,559 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=1 分数=None-None 共2条
+2026-10-21 15:52:50,764 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:51,979 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=90.0-95.0 共2条
+2026-10-21 15:52:53,197 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:52:54,412 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字=张明 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 15:52:55,616 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:54:06,542 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:54:06,543 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:54:06,543 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 15:54:08,356 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:54:08,358 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 15:54:09,403 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 15:54:09,404 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 15:54:09,414 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 15:55:10,340 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=1 科目=0 分数=None-None 共2条
+2026-10-21 15:55:12,730 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=1 科目=1 分数=None-None 共1条
+2026-10-21 15:55:16,683 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=1 分数=None-None 共2条
+2026-10-21 16:21:52,665 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 16:21:52,666 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 16:21:53,955 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 16:21:53,956 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 16:21:53,957 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 16:21:53,966 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 16:21:54,540 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 16:21:55,055 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 16:21:55,055 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 16:21:56,008 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 16:21:56,019 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 16:23:16,549 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=17
+2026-10-21 16:23:16,558 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 16:23:19,330 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=18
+2026-10-21 16:23:19,338 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 16:23:20,791 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=19
+2026-10-21 16:23:20,800 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 16:23:22,543 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=20
+2026-10-21 16:23:22,552 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 16:23:23,835 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=21
+2026-10-21 16:23:23,844 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 17:07:59,623 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:07:59,625 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:08:00,921 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：2的老师信息
+2026-10-21 17:08:07,419 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 17:08:09,643 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:08:09,646 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:08:09,646 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:08:09,653 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 17:08:19,584 - MainThread - [WARNING] - main:请求 /sch/add 业务异常：该教师在「高一（2）班」的同一时间已有课程
+2026-10-21 17:08:31,309 - MainThread - [WARNING] - main:请求 /sch/add 业务异常：该教师在「高一（2）班」的同一时间已有课程
+2026-10-21 17:08:41,599 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:08:41,600 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:08:41,606 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 17:08:41,934 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:08:41,944 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 17:08:42,264 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:08:42,264 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:08:43,033 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 17:08:43,816 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:08:43,818 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:08:43,818 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:08:43,825 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 17:08:44,239 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:08:44,239 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:08:44,248 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 关键字= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:08:50,309 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=1 共2条
+2026-10-21 17:10:18,210 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=1 姓名= 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 17:10:18,235 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名= 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 17:10:18,250 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名=李 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 17:10:18,266 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名=四 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 17:10:18,281 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 17:10:18,284 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名=李 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 17:10:18,312 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名=张 班级=0 科目=0 分数=None-None 共0条
+2026-10-21 17:10:18,314 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名= 班级=0 科目=3 分数=None-None 共1条
+2026-10-21 17:10:18,318 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名=李 班级=0 科目=0 分数=55.0-None 共2条
+2026-10-21 17:10:18,343 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=1 科目=0 分数=None-None 共2条
+2026-10-21 17:10:18,357 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=1 分数=None-None 共2条
+2026-10-21 17:10:18,375 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=90.0-95.0 共2条
+2026-10-21 17:10:18,387 - MainThread - [WARNING] - main:请求 /sco/list 业务异常：最低分不能大于最高分
+2026-10-21 17:10:34,373 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 17:10:34,373 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:10:34,374 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:10:36,569 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:10:36,570 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:10:36,578 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:10:39,070 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名= 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 17:10:40,283 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:10:41,495 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 17:10:42,698 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:10:43,901 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名=李 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 17:10:45,157 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名=张 班级=0 科目=0 分数=None-None 共0条
+2026-10-21 17:10:46,364 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:13:31,521 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 17:13:31,522 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:13:31,526 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:13:33,624 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:13:33,625 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:13:33,996 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 17:13:35,421 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:13:35,424 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:13:35,425 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:13:35,436 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 17:13:36,237 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:13:36,238 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:13:36,249 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:14:00,995 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 17:14:00,999 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:14:00,999 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:14:02,508 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:14:02,509 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:14:02,519 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:14:41,887 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 17:14:41,888 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:14:41,890 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:14:42,998 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:14:43,009 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 17:14:43,625 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:14:43,626 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:14:43,627 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:14:43,636 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 17:14:44,165 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:14:44,165 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:14:44,176 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:14:48,277 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 关键字=1 共2条
+2026-10-21 17:14:57,688 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=1 姓名= 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 17:15:57,721 - MainThread - [WARNING] - main:请求 /sco/students 业务异常：请输入学号或姓名
+2026-10-21 17:16:19,901 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 共11条
+2026-10-21 17:16:33,228 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 共11条
+2026-10-21 17:16:33,244 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=12 姓名= 共1条
+2026-10-21 17:16:33,261 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号= 姓名=李 共1条
+2026-10-21 17:16:33,275 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号= 姓名=四 共1条
+2026-10-21 17:16:33,291 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名=李 共1条
+2026-10-21 17:16:33,307 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名=李 共0条
+2026-10-21 17:16:33,322 - MainThread - [WARNING] - main:请求 /sco/students 业务异常：请输入学号或姓名
+2026-10-21 17:16:33,326 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:16:50,330 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 17:16:50,330 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:16:50,331 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 17:16:52,509 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 17:16:52,509 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 17:16:52,517 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 17:16:55,017 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 共11条
+2026-10-21 17:16:56,234 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生2科目 6 门
+2026-10-21 17:16:58,656 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号= 姓名=李 共1条
+2026-10-21 17:17:00,679 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名=李 共1条
+2026-10-21 17:17:01,931 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名=李 共0条
+2026-10-21 18:51:14,456 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 18:51:14,461 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:51:14,462 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:51:25,087 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:51:25,088 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:51:25,089 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:51:25,098 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 18:51:25,590 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:51:25,593 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:51:25,602 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号= 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:51:29,535 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名= 共7条
+2026-10-21 18:52:48,585 - MainThread - [ERROR] - main:请求 /sco/students 发生系统异常：'int' object has no attribute 'strip'
+2026-10-21 18:52:54,639 - MainThread - [ERROR] - main:请求 /sco/students 发生系统异常：'int' object has no attribute 'strip'
+2026-10-21 18:53:18,003 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 共1条
+2026-10-21 18:53:18,022 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=12 姓名= 共1条
+2026-10-21 18:53:18,038 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名= 共1条
+2026-10-21 18:53:18,053 - MainThread - [WARNING] - main:请求 /sco/students 业务异常：学号必须是数字
+2026-10-21 18:53:18,067 - MainThread - [WARNING] - main:请求 /sco/students 业务异常：学号必须是正整数
+2026-10-21 18:53:18,085 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=李 共1条
+2026-10-21 18:53:18,101 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=四 共1条
+2026-10-21 18:53:18,103 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名=李 共1条
+2026-10-21 18:53:18,106 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名=李 共0条
+2026-10-21 18:53:18,110 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名= 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 18:53:18,112 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=12 姓名= 班级=0 科目=0 分数=None-None 共0条
+2026-10-21 18:53:18,131 - MainThread - [WARNING] - main:请求 /sco/list 业务异常：学号必须是数字
+2026-10-21 18:53:18,148 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=李 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 18:53:36,707 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 18:53:36,708 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:53:36,708 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:53:38,893 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:53:38,893 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:53:38,901 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:53:41,393 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 共1条
+2026-10-21 18:53:43,325 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=12 姓名= 共1条
+2026-10-21 18:53:45,244 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=李 共1条
+2026-10-21 18:53:47,164 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名=李 共1条
+2026-10-21 18:53:49,124 - MainThread - [WARNING] - main:请求 /sco/students 业务异常：学号必须是数字
+2026-10-21 18:53:50,344 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:53:51,552 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=2 姓名= 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 18:53:52,769 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:53:53,985 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=12 姓名= 班级=0 科目=0 分数=None-None 共0条
+2026-10-21 18:53:55,202 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:53:56,420 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=李 班级=0 科目=0 分数=None-None 共3条
+2026-10-21 18:53:57,635 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:56:12,289 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 18:56:12,292 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:12,293 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:14,332 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:14,333 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:14,340 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 18:56:15,520 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:56:15,533 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 18:56:19,167 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:19,167 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:22,768 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 18:56:28,111 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:56:28,113 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:28,113 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:28,122 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 18:56:29,141 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:29,143 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:30,296 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:56:30,298 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:30,306 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:56:31,738 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:31,738 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:32,234 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:56:32,244 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 18:56:32,917 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:56:32,917 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:34,587 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:56:34,588 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:56:34,595 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 18:56:37,307 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名= 共1条
+2026-10-21 18:56:40,320 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 共1条
+2026-10-21 18:56:42,366 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=11 姓名= 共0条
+2026-10-21 18:56:45,504 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=13 姓名= 共0条
+2026-10-21 18:56:50,521 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名= 共1条
+2026-10-21 18:56:54,615 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名=张 共1条
+2026-10-21 18:56:56,773 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=张 共15条
+2026-10-21 18:57:04,457 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=1 姓名= 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:29,048 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:31,058 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:35,265 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:35,617 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:35,804 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:36,142 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:42,494 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名= 共1条
+2026-10-21 18:57:47,663 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张三 班级=0 科目=0 分数=None-None 共0条
+2026-10-21 18:57:52,515 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张明 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:56,633 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=张 班级=0 科目=0 分数=None-None 共1条
+2026-10-21 18:57:59,870 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:57:59,874 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:57:59,881 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 18:58:01,294 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 18:58:01,814 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:58:01,814 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:58:01,816 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 18:58:01,823 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 18:58:02,404 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 18:58:02,407 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 18:58:02,414 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 19:00:15,823 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:00:15,843 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第3页 每页10条 共22条
+2026-10-21 19:00:15,874 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 第1页 每页10条 共1条
+2026-10-21 19:00:15,879 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=张 第1页 每页10条 共15条
+2026-10-21 19:00:15,905 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=张 第2页 每页10条 共15条
+2026-10-21 19:00:15,909 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=李 第1页 每页10条 共1条
+2026-10-21 19:00:15,912 - MainThread - [WARNING] - main:请求 /sco/students 业务异常：学号必须是数字
+2026-10-21 19:00:35,455 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:00:35,457 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:00:35,457 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:00:37,648 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:00:37,649 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:00:37,651 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:00:37,651 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 19:00:40,448 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第2页 每页10条 共22条
+2026-10-21 19:00:41,660 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第3页 每页10条 共22条
+2026-10-21 19:00:42,870 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:00:44,086 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=2 姓名= 第1页 每页10条 共1条
+2026-10-21 19:00:45,306 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:00:46,519 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=张 第1页 每页10条 共15条
+2026-10-21 19:00:47,738 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=张 第2页 每页10条 共15条
+2026-10-21 19:00:48,942 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:00:50,159 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=李 第1页 每页10条 共1条
+2026-10-21 19:00:51,376 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:00:52,614 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生1科目 6 门
+2026-10-21 19:02:33,790 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:02:33,791 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:02:33,792 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:02:37,344 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:02:37,354 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 19:02:38,199 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:02:38,200 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:02:39,103 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 19:02:39,597 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:02:39,597 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:02:39,598 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:02:39,606 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:02:40,473 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:02:40,473 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:02:40,475 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:02:40,476 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共6条
+2026-10-21 19:02:42,230 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第2页 每页10条 共22条
+2026-10-21 19:02:43,212 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第3页 每页10条 共22条
+2026-10-21 19:02:44,458 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:02:47,009 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=1 姓名= 第1页 每页10条 共1条
+2026-10-21 19:02:49,050 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:02:51,760 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=方 第1页 每页10条 共0条
+2026-10-21 19:02:54,739 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名=张 第1页 每页10条 共15条
+2026-10-21 19:02:58,842 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:03:01,577 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生1科目 6 门
+2026-10-21 19:03:18,159 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生1成绩 6 门
+2026-10-21 19:03:18,167 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生1科目 6 门
+2026-10-21 19:03:20,062 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生2科目 6 门
+2026-10-21 19:03:34,512 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生2成绩 6 门
+2026-10-21 19:03:34,521 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生2科目 6 门
+2026-10-21 19:03:38,295 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共14条
+2026-10-21 19:03:39,839 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共14条
+2026-10-21 19:03:40,755 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共14条
+2026-10-21 19:03:49,139 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=2 分数=None-None 共2条
+2026-10-21 19:03:52,273 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=1 分数=None-None 共2条
+2026-10-21 19:03:55,761 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=1 科目=1 分数=None-None 共1条
+2026-10-21 19:04:01,412 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 5 门
+2026-10-21 19:04:14,579 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生8成绩 5 门
+2026-10-21 19:04:14,586 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生8科目 5 门
+2026-10-21 19:04:16,979 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第2页 每页10条 共22条
+2026-10-21 19:04:18,594 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生26科目 5 门
+2026-10-21 19:04:33,523 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生26成绩 5 门
+2026-10-21 19:04:33,531 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生26科目 5 门
+2026-10-21 19:04:36,119 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第3页 每页10条 共22条
+2026-10-21 19:04:37,802 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生34科目 5 门
+2026-10-21 19:04:49,048 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生34成绩 5 门
+2026-10-21 19:04:49,056 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生34科目 5 门
+2026-10-21 19:04:53,445 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共29条
+2026-10-21 19:04:55,287 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:04:56,985 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第2页 每页10条 共22条
+2026-10-21 19:04:57,493 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第3页 每页10条 共22条
+2026-10-21 19:04:58,897 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共29条
+2026-10-21 19:04:59,243 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共29条
+2026-10-21 19:04:59,925 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共29条
+2026-10-21 19:05:05,424 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=1 科目=0 分数=None-None 共7条
+2026-10-21 19:05:09,135 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=1 科目=1 分数=None-None 共1条
+2026-10-21 19:05:11,542 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=1 科目=0 分数=None-None 共7条
+2026-10-21 19:05:14,737 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共29条
+2026-10-21 19:05:17,221 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=1 分数=None-None 共5条
+2026-10-21 19:05:46,430 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生34科目 5 门
+2026-10-21 19:05:48,882 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:05:49,925 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生17科目 5 门
+2026-10-21 19:06:10,378 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生17成绩 5 门
+2026-10-21 19:06:10,393 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生17科目 5 门
+2026-10-21 19:06:16,473 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第2页 每页10条 共22条
+2026-10-21 19:06:17,484 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第3页 每页10条 共22条
+2026-10-21 19:06:20,446 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第2页 每页10条 共22条
+2026-10-21 19:06:22,262 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:06:24,179 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:06:24,181 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:06:24,182 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:06:26,603 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:06:26,603 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:06:26,609 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:06:28,119 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:06:28,127 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 19:06:28,969 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:06:28,972 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:06:28,978 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:06:30,679 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生4学习科目 5 门
+2026-10-21 19:06:36,762 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生1学习科目 6 门
+2026-10-21 19:06:47,854 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号1学生信息
+2026-10-21 19:10:14,081 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 19:10:16,500 - MainThread - [ERROR] - main:请求 /stu/del/34 发生系统异常：(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`school_db_study`.`score`, CONSTRAINT `score_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)')
+2026-10-21 19:10:22,730 - MainThread - [ERROR] - main:请求 /stu/del/34 发生系统异常：(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`school_db_study`.`score`, CONSTRAINT `score_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)')
+2026-10-21 19:10:25,458 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学号34学生信息
+2026-10-21 19:10:28,115 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:28,116 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:28,492 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 19:10:28,876 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:28,878 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:28,880 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:28,886 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:10:29,326 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:29,330 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:29,331 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:10:29,333 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:10:34,389 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生12科目 5 门
+2026-10-21 19:10:37,556 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:37,556 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:37,564 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:10:38,717 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 19:10:40,793 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:40,793 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:40,795 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:40,802 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:10:41,154 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:41,154 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:41,454 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:41,462 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 19:10:42,203 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:42,203 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:43,042 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:43,045 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:43,046 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:43,054 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:10:44,103 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 19:10:44,879 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:44,880 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:44,890 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:10:45,262 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:45,263 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:45,265 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:10:46,337 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:46,346 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 19:10:47,367 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:47,371 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:47,377 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:10:48,482 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:48,483 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:51,591 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:51,593 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:51,593 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:51,601 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:10:52,310 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:52,315 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:52,317 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:10:52,320 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:10:53,081 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:53,083 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:53,510 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:53,510 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:53,513 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:10:53,513 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:10:53,843 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:53,844 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:53,845 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:53,852 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:10:54,279 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:54,279 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:56,764 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:10:56,764 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:10:56,765 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:10:56,772 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:11:00,408 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:11:00,409 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:11:00,788 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:11:00,792 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:11:00,794 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:11:00,795 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:11:15,509 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=34 姓名= 第1页 每页10条 共1条
+2026-10-21 19:11:16,538 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：学生34科目 5 门
+2026-10-21 19:11:29,810 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=34 姓名= 班级=0 科目=0 分数=None-None 共5条
+2026-10-21 19:11:57,557 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:11:57,557 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:11:57,563 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:11:58,750 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共22条
+2026-10-21 19:12:00,591 - MainThread - [ERROR] - main:请求 /stu/del/34 发生系统异常：(1451, 'Cannot delete or update a parent row: a foreign key constraint fails (`school_db_study`.`score`, CONSTRAINT `score_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)')
+2026-10-21 19:13:30,655 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:13:30,677 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：41条学生信息
+2026-10-21 19:13:30,721 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生41成绩 1 门
+2026-10-21 19:13:30,729 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=41
+2026-10-21 19:13:30,754 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生41补充科目 subject_id=10
+2026-10-21 19:13:30,785 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生 id=41，连带删除成绩1条、报到1条、补充科目1条
+2026-10-21 19:13:43,828 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:13:43,847 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：42条学生信息
+2026-10-21 19:13:43,878 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生42成绩 1 门
+2026-10-21 19:13:43,910 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=42
+2026-10-21 19:13:43,919 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生42补充科目 subject_id=10
+2026-10-21 19:13:43,940 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生 id=42，连带删除成绩1条、报到1条、补充科目1条
+2026-10-21 19:14:16,139 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:14:16,159 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：43条学生信息
+2026-10-21 19:14:16,190 - AnyIO worker thread - [INFO] - org.fyz.score.service:改：学生43成绩 1 门
+2026-10-21 19:14:16,221 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=43
+2026-10-21 19:14:16,254 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生43补充科目 subject_id=10
+2026-10-21 19:15:02,283 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共23条
+2026-10-21 19:15:02,285 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:15:02,286 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:15:04,469 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:15:04,469 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:15:04,476 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-21 19:15:06,665 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时删除学生F 共1条
+2026-10-21 19:15:08,838 - AnyIO worker thread - [INFO] - org.fyz.student.service:删：学生 id=43，连带删除成绩1条、报到1条、补充科目1条
+2026-10-21 19:15:08,843 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时删除学生F 共0条
+2026-10-21 19:15:11,038 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字=临时删除学生F 共0条
+2026-10-21 19:15:11,046 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名=临时删除学生F 班级=0 科目=0 分数=None-None 共0条
+2026-10-21 19:15:11,051 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字=临时删除学生F 共0条
+2026-10-21 19:23:41,313 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:23:41,326 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 19:23:42,622 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:23:42,623 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:23:42,623 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:23:42,624 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:23:42,625 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:27:06,386 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:27:06,416 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:增：公告 id=3 标题=临时公告
+2026-10-21 19:27:06,447 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:改：公告 id=3
+2026-10-21 19:27:06,475 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字=临时公告 状态=-1 共1条
+2026-10-21 19:27:06,490 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=0 共1条
+2026-10-21 19:27:06,506 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=1 共2条
+2026-10-21 19:27:06,524 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:删：公告 id=3
+2026-10-21 19:27:06,552 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:27:34,466 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:27:34,467 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:27:34,469 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-21 19:27:34,469 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:27:37,264 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:27:39,985 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:增：公告 id=4 标题=UI临时公告
+2026-10-21 19:27:39,991 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共3条
+2026-10-21 19:27:43,051 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:改：公告 id=4
+2026-10-21 19:27:43,056 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共3条
+2026-10-21 19:27:45,224 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:删：公告 id=4
+2026-10-21 19:27:45,230 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:34:45,202 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:34:45,204 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:34:45,212 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:37:29,439 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-21 19:37:29,440 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:37:29,441 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:37:29,442 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:37:34,826 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:37:34,826 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:37:34,834 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:37:35,219 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:37:35,230 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共22条
+2026-10-21 19:37:35,892 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 19:37:36,247 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:37:36,250 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:37:36,567 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:37:36,570 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:37:36,570 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:37:36,580 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:37:36,854 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:37:36,859 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:37:36,862 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:37:36,864 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:37:40,467 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:37:53,208 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:37:53,208 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:37:53,211 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:37:53,212 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:37:53,610 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:38:03,917 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:38:03,922 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:38:03,924 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-21 19:38:03,925 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-21 19:38:04,900 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:38:04,901 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:38:04,902 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:38:04,908 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:38:07,170 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:38:07,170 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:38:15,322 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-21 19:38:16,051 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:38:16,052 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:39:17,540 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:39:17,543 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:39:17,980 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:39:17,981 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:39:17,983 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:39:17,989 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:39:18,463 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:39:18,464 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:39:19,408 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:39:19,408 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-21 19:39:19,409 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:39:19,417 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-21 19:39:28,213 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级2课表 21 条
+2026-10-21 19:39:31,761 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级3课表 21 条
+2026-10-21 19:39:33,351 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级4课表 21 条
+2026-10-21 19:53:57,791 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 admin
+2026-10-21 19:53:57,915 - MainThread - [WARNING] - main:请求 /auth/login 业务异常：账号或密码错误
+2026-10-21 19:53:57,922 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共1条
+2026-10-21 19:53:58,048 - AnyIO worker thread - [INFO] - org.fyz.user.service:增：用户 id=2 username=temp_user_api role=teacher
+2026-10-21 19:53:58,175 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 temp_user_api
+2026-10-21 19:53:58,182 - AnyIO worker thread - [INFO] - org.fyz.user.service:改：用户 id=2
+2026-10-21 19:53:58,210 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字=temp_user_api 状态=-1 共1条
+2026-10-21 19:53:58,340 - AnyIO worker thread - [INFO] - org.fyz.user.service:重置密码：用户 id=2
+2026-10-21 19:53:58,463 - MainThread - [WARNING] - main:请求 /auth/login 业务异常：账号或密码错误
+2026-10-21 19:53:58,612 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 temp_user_api
+2026-10-21 19:53:58,620 - AnyIO worker thread - [INFO] - org.fyz.user.service:用户状态：id=2 status=0
+2026-10-21 19:53:58,765 - MainThread - [WARNING] - main:请求 /auth/login 业务异常：账号已被停用，请联系管理员
+2026-10-21 19:53:58,773 - AnyIO worker thread - [INFO] - org.fyz.user.service:用户状态：id=2 status=1
+2026-10-21 19:53:58,777 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=0 共0条
+2026-10-21 19:53:58,928 - AnyIO worker thread - [INFO] - org.fyz.user.service:注册：用户 id=3 username=temp_reg_api
+2026-10-21 19:53:59,067 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 temp_reg_api
+2026-10-21 19:53:59,072 - MainThread - [WARNING] - main:请求 /auth/register 业务异常：用户名已存在
+2026-10-21 19:53:59,075 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共3条
+2026-10-21 19:53:59,100 - MainThread - [WARNING] - main:请求 /usr/del/1 业务异常：内置管理员不能删除
+2026-10-21 19:53:59,104 - MainThread - [WARNING] - main:请求 /usr/status 业务异常：内置管理员不能停用
+2026-10-21 19:53:59,132 - MainThread - [WARNING] - main:请求 /usr/update 业务异常：内置管理员不能修改角色
+2026-10-21 19:53:59,138 - AnyIO worker thread - [INFO] - org.fyz.user.service:删：用户 id=2
+2026-10-21 19:53:59,142 - AnyIO worker thread - [INFO] - org.fyz.user.service:删：用户 id=3
+2026-10-21 19:53:59,162 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共1条
+2026-10-21 19:54:41,424 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 admin
+2026-10-21 19:54:41,496 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-21 19:54:41,501 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:54:41,503 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:54:41,504 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:54:42,924 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共1条
+2026-10-21 19:54:45,753 - AnyIO worker thread - [INFO] - org.fyz.user.service:增：用户 id=4 username=temp_ui_user role=teacher
+2026-10-21 19:54:45,760 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:54:47,753 - AnyIO worker thread - [INFO] - org.fyz.user.service:改：用户 id=4
+2026-10-21 19:54:47,760 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:54:50,008 - AnyIO worker thread - [INFO] - org.fyz.user.service:重置密码：用户 id=4
+2026-10-21 19:54:51,910 - AnyIO worker thread - [INFO] - org.fyz.user.service:用户状态：id=4 status=0
+2026-10-21 19:54:51,915 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:54:53,928 - AnyIO worker thread - [INFO] - org.fyz.user.service:用户状态：id=4 status=1
+2026-10-21 19:54:53,933 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:54:56,015 - AnyIO worker thread - [INFO] - org.fyz.user.service:删：用户 id=4
+2026-10-21 19:54:56,020 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共1条
+2026-10-21 19:54:59,572 - AnyIO worker thread - [INFO] - org.fyz.user.service:注册：用户 id=5 username=temp_ui_reg
+2026-10-21 19:55:01,183 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 temp_ui_reg
+2026-10-21 19:55:01,232 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-21 19:55:01,233 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:55:01,233 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:55:01,234 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:57:13,042 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 admin
+2026-10-21 19:57:13,123 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-21 19:57:13,127 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:57:13,128 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:57:13,132 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:57:16,118 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共1条
+2026-10-21 19:57:38,763 - AnyIO worker thread - [INFO] - org.fyz.user.service:注册：用户 id=6 username=2490885096
+2026-10-21 19:57:42,891 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 2490885096
+2026-10-21 19:57:42,957 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-21 19:57:42,958 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:57:42,958 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-21 19:57:42,959 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:57:49,827 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-21 19:58:03,944 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-21 19:58:03,946 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-21 19:58:03,953 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-21 19:58:05,288 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-22 08:55:11,047 - AnyIO worker thread - [INFO] - org.fyz.user.service:登录：用户 admin
+2026-10-22 08:55:11,185 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-22 08:55:11,186 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 08:55:11,188 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-22 08:55:11,191 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:55:16,629 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-22 08:55:32,127 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 08:55:32,140 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:55:32,141 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共22条
+2026-10-22 08:55:32,148 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-22 08:55:32,472 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 08:55:32,473 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 08:55:32,474 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:55:32,504 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 08:55:32,876 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:55:32,879 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 08:55:33,252 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 08:55:33,537 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 08:55:33,539 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:55:34,023 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:55:34,024 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 08:55:34,033 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 08:55:34,715 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-22 08:57:15,938 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 08:57:15,939 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 08:57:15,944 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:10:59,367 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:10:59,367 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:10:59,369 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-22 09:10:59,370 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-22 09:11:01,036 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:11:01,038 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:11:01,044 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:11:08,306 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:11:08,308 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页5条 关键字= 状态=1 共2条
+2026-10-22 09:11:08,309 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:11:08,310 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页100条 关键字= 共22条
+2026-10-22 09:12:08,593 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:12:08,594 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:12:08,601 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共22条
+2026-10-22 09:12:43,647 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：44条学生信息
+2026-10-22 09:12:43,653 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第3页 每页10条 关键字= 共23条
+2026-10-22 09:12:49,283 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生44学习科目 5 门
+2026-10-22 09:12:54,940 - AnyIO worker thread - [INFO] - org.fyz.student.service:增：学生44补充科目 subject_id=10
+2026-10-22 09:12:54,948 - AnyIO worker thread - [INFO] - org.fyz.student.service:查：学生44学习科目 6 门
+2026-10-22 09:13:03,325 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:03,327 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:03,649 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:13:04,341 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:04,341 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:07,266 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:13:07,266 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:07,269 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:07,276 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 09:13:07,675 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:13:09,048 - AnyIO worker thread - [INFO] - org.fyz.announcement.service:分页查：公告 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-22 09:13:09,544 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:13:09,547 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:09,547 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:09,555 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 09:13:11,584 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:13:12,107 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:12,110 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:12,417 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:12,418 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:24,611 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:13:25,011 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:13:25,014 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:13:29,696 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：10的老师信息
+2026-10-22 09:24:04,555 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:04,556 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:04,990 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:24:04,992 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:04,992 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:05,000 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 09:24:12,355 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:12,355 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:12,670 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:24:13,089 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:13,090 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:29,552 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:29,553 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:31,055 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:24:31,501 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:31,501 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:31,967 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:24:31,967 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:24:31,969 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:24:31,976 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 09:24:38,522 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:删：课表 id=37
+2026-10-22 09:24:38,528 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 20 条
+2026-10-22 09:24:43,295 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:增：课表 id=104 班级=1 星期2第5节
+2026-10-22 09:24:43,303 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 09:24:54,931 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:改：课表 id=104
+2026-10-22 09:24:54,939 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 21 条
+2026-10-22 09:25:00,636 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:删：课表 id=13
+2026-10-22 09:25:00,644 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 20 条
+2026-10-22 09:25:06,019 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:25:06,020 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:25:06,023 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共23条
+2026-10-22 09:25:06,025 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-22 09:31:47,582 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:31:47,584 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:31:47,584 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:31:47,592 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 20 条
+2026-10-22 09:31:48,544 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:31:48,545 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:31:49,257 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:31:49,831 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:31:49,831 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:31:50,264 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:31:50,264 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:31:53,964 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:31:53,965 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:31:55,262 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:31:56,284 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:31:56,286 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:31:56,294 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-22 09:31:58,195 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:31:58,236 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:32:01,944 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-22 09:32:02,400 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:32:02,405 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:32:02,407 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共23条
+2026-10-22 09:32:02,407 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-22 09:36:32,816 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:36:32,817 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:36:37,604 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:36:40,554 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:36:40,557 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:36:40,564 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-22 09:36:42,816 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:36:42,816 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:38:51,737 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-22 09:40:45,562 - AnyIO worker thread - [INFO] - org.fyz.user.service:分页查：用户 第1页 每页10条 关键字= 状态=-1 共2条
+2026-10-22 09:40:46,327 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:40:46,328 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:40:46,329 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:40:46,335 - AnyIO worker thread - [INFO] - org.fyz.schedule.service:查：班级1课表 20 条
+2026-10-22 09:40:47,391 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:40:47,396 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:40:47,397 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩学生搜索 学号=无 姓名= 第1页 每页10条 共23条
+2026-10-22 09:40:47,399 - AnyIO worker thread - [INFO] - org.fyz.score.service:查：成绩列表 学号=无 姓名= 班级=0 科目=0 分数=None-None 共34条
+2026-10-22 09:40:47,926 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:40:47,926 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:40:48,892 - AnyIO worker thread - [INFO] - org.fyz.classes.service:分页查：第1页 每页10条 关键字= 共4条
+2026-10-22 09:40:49,657 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:40:49,658 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:40:49,991 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:40:50,001 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:40:50,607 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:40:50,610 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:40:50,616 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条
+2026-10-22 09:40:51,130 - AnyIO worker thread - [INFO] - org.fyz.classes.service:查：4条班级信息
+2026-10-22 09:40:51,141 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:40:59,915 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:06,011 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=22
+2026-10-22 09:41:06,021 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:08,152 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=23
+2026-10-22 09:41:08,160 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:09,545 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=26
+2026-10-22 09:41:09,554 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:12,030 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=27
+2026-10-22 09:41:12,038 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:14,353 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=28
+2026-10-22 09:41:14,360 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:16,439 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=30
+2026-10-22 09:41:16,447 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:18,200 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=29
+2026-10-22 09:41:18,208 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:20,091 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=33
+2026-10-22 09:41:20,099 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:21,688 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=32
+2026-10-22 09:41:21,695 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:22,994 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=31
+2026-10-22 09:41:23,002 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:24,606 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=44
+2026-10-22 09:41:24,614 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:26,039 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=3
+2026-10-22 09:41:26,046 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:27,624 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=34
+2026-10-22 09:41:27,633 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:29,299 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=8
+2026-10-22 09:41:29,306 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:33,103 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:报到：学生 id=2
+2026-10-22 09:41:33,111 - AnyIO worker thread - [INFO] - org.fyz.checkin.service:查：报到列表 班级=0 状态=all 关键字= 共23条
+2026-10-22 09:41:41,458 - AnyIO worker thread - [INFO] - org.fyz.teacher.service:查：5条老师信息
+2026-10-22 09:41:41,461 - AnyIO worker thread - [INFO] - org.fyz.subject.service:查：6条课程信息
+2026-10-22 09:41:41,467 - AnyIO worker thread - [INFO] - org.fyz.student.service:分页查：第1页 每页10条 关键字= 共23条

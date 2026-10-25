@@ -1,0 +1,57 @@
+/* 成绩管理 */
+
+.score-hint {
+  padding: 28px 16px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  text-align: center;
+}
+
+.score-student-info {
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  background: #f5f7fa;
+  color: var(--text-regular);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.score-subject-table {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.score-subject-table th {
+  white-space: nowrap;
+}
+
+.score-current {
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.score-input {
+  width: 110px;
+}
+
+.score-modal-hint {
+  margin: 12px 0 0;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.search-item .score-filter-number {
+  width: 120px;
+}
+
+.score-list-score {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* 成绩页提示放右下角，避免遮挡搜索区域 */
+.toast-container {
+  top: auto;
+  bottom: 20px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>课程管理</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="card search-card">
+      <div class="card-body">
+        <form class="search-form" id="search-form">
+          <div class="search-item">
+            <label for="keyword-input">课程名称</label>
+            <input class="form-control form-control-sm" id="keyword-input" name="keyword" placeholder="请输入课程名称" autocomplete="off">
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-default btn-sm" type="reset">重置</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" id="table-card">
+      <div class="card-body">
+        <div class="toolbar">
+          <button class="btn btn-primary btn-sm" id="btn-add" type="button">＋ 新增课程</button>
+          <button class="btn btn-default btn-sm" id="btn-refresh" type="button">刷新</button>
+          <span class="toolbar-note">共 <strong id="subject-count">0</strong> 门课程</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm align-middle">
+            <thead>
+              <tr>
+                <th style="width:60px;">ID</th>
+                <th>课程名称</th>
+                <th>类型</th>
+                <th>学分</th>
+                <th>任课教师</th>
+                <th style="width:130px;">操作</th>
+              </tr>
+            </thead>
+            <tbody id="subject-tbody">
+              <tr><td colspan="6" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="subject-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <form class="modal-content" id="subject-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="subject-modal-title">新增课程</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="notice" id="subject-edit-hint" style="display:none;">
+            现有课程修改接口仅支持课程名称与学分，类型以只读方式展示。
+          </div>
+          <div class="row g-3">
+            <div class="col-12">
+              <label class="form-label" for="subject-name">课程名称 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="subject-name" name="name" maxlength="50" required autocomplete="off">
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="subject-sort">类型 <span class="text-danger">*</span></label>
+              <select class="form-select form-select-sm" id="subject-sort" name="sort">
+                <option value="必修">必修</option>
+                <option value="选修">选修</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="subject-points">学分 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="subject-points" name="points" type="number" min="0" max="150" value="3" required>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">取消</button>
+          <button class="btn btn-primary btn-sm" id="subject-submit" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/subject.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>班级管理</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="notice" id="classes-table-notice" hidden>
+      班级表尚未创建，请先在数据库中执行 <code>org/sql/classes.sql</code>，然后刷新本页。
+    </div>
+
+    <div class="card search-card">
+      <div class="card-body">
+        <form class="search-form" id="search-form">
+          <div class="search-item">
+            <label for="keyword-input">班级名称 / 编号</label>
+            <input class="form-control form-control-sm" id="keyword-input" name="keyword" placeholder="请输入名称或编号" autocomplete="off">
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-default btn-sm" type="reset">重置</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" id="table-card">
+      <div class="card-body">
+        <div class="toolbar">
+          <button class="btn btn-primary btn-sm" id="btn-add" type="button">＋ 新增班级</button>
+          <button class="btn btn-default btn-sm" id="btn-refresh" type="button">刷新</button>
+          <span class="toolbar-note">共 <strong id="classes-count">0</strong> 个班级</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm align-middle">
+            <thead>
+              <tr>
+                <th style="width:60px;">ID</th>
+                <th>班级名称</th>
+                <th>班级编号</th>
+                <th>班级地址</th>
+                <th>创建时间</th>
+                <th style="width:130px;">操作</th>
+              </tr>
+            </thead>
+            <tbody id="classes-tbody">
+              <tr><td colspan="6" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="classes-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="classes-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <form class="modal-content" id="classes-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="classes-modal-title">新增班级</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-12">
+              <label class="form-label" for="classes-name">班级名称 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="classes-name" name="name" maxlength="50" required autocomplete="off">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="classes-code">班级编号 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="classes-code" name="code" maxlength="50" required autocomplete="off" placeholder="例如：G2026-01">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="classes-address">班级地址</label>
+              <textarea class="form-control form-control-sm" id="classes-address" name="address" rows="2" maxlength="200" placeholder="例如：教学楼 A-101"></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">取消</button>
+          <button class="btn btn-primary btn-sm" id="classes-submit" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/classes.js"></script>
+</body>
+</html>

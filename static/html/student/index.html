@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>学生管理</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+  <link rel="stylesheet" href="/static/css/student.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="card search-card">
+      <div class="card-body">
+        <form class="search-form" id="search-form">
+          <div class="search-item">
+            <label for="keyword-input">学生姓名</label>
+            <input class="form-control form-control-sm" id="keyword-input" name="keyword" placeholder="请输入姓名关键字" autocomplete="off">
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-default btn-sm" type="reset">重置</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" id="table-card">
+      <div class="card-body">
+        <div class="toolbar">
+          <button class="btn btn-primary btn-sm" id="btn-add" type="button">＋ 新增学生</button>
+          <button class="btn btn-default btn-sm" id="btn-refresh" type="button">刷新</button>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm align-middle">
+            <thead>
+              <tr>
+                <th style="width:60px;">ID</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>年级</th>
+                <th>班级</th>
+                <th>任课老师</th>
+                <th>入学日期</th>
+                <th style="width:200px;">操作</th>
+              </tr>
+            </thead>
+            <tbody id="student-tbody">
+              <tr><td colspan="9" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="student-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 新增 / 编辑 -->
+  <div class="modal fade" id="student-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <form class="modal-content" id="student-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="student-modal-title">新增学生</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="notice" id="student-edit-hint" style="display:none;">
+            当前学生修改接口仅支持姓名、年龄、年级，其他字段以只读方式展示。
+          </div>
+          <div class="row g-3">
+            <div class="col-6">
+              <label class="form-label" for="student-name">姓名 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="student-name" name="name" maxlength="50" required autocomplete="off">
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="student-gender">性别 <span class="text-danger">*</span></label>
+              <select class="form-select form-select-sm" id="student-gender" name="gender">
+                <option value="男">男</option>
+                <option value="女">女</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="student-age">年龄 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="student-age" name="age" type="number" min="0" max="150" value="18" required>
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="student-grade">年级 <span class="text-danger">*</span></label>
+              <select class="form-select form-select-sm" id="student-grade" name="grade">
+                <option value="高一">高一</option>
+                <option value="高二">高二</option>
+                <option value="高三">高三</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="student-class">班级编号 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="student-class" name="class_id" type="number" min="1" value="1" required>
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="student-teacher">任课老师 <span class="text-danger">*</span></label>
+              <select class="form-select form-select-sm" id="student-teacher" name="teacher_id"></select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="student-enrollment">入学日期</label>
+              <input class="form-control form-control-sm" id="student-enrollment" name="enrollment_date" type="date">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">取消</button>
+          <button class="btn btn-primary btn-sm" id="student-submit" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 详情 -->
+  <div class="modal fade" id="detail-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">学生详情</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body" id="detail-content">
+          <div class="empty-state">加载中…</div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 学习科目 -->
+  <div class="modal fade" id="subjects-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="subjects-modal-title">学习科目</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="subjects-student-info" id="subjects-student-info"></div>
+
+          <div class="table-responsive">
+            <table class="table table-sm align-middle">
+              <thead>
+                <tr>
+                  <th>科目</th>
+                  <th style="width:110px;">来源</th>
+                  <th>任课教师</th>
+                </tr>
+              </thead>
+              <tbody id="subjects-tbody">
+                <tr><td colspan="3" class="table-empty">加载中…</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="subjects-add-row">
+            <label for="subject-select">添加科目</label>
+            <select class="form-select form-select-sm" id="subject-select"></select>
+            <button class="btn btn-primary btn-sm" id="btn-add-subject" type="button">添加</button>
+          </div>
+          <p class="subjects-hint">只能添加课程表中已存在的科目；班级课表内的科目无需重复添加。</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/student.js"></script>
+</body>
+</html>

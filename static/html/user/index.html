@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>用户管理</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+  <link rel="stylesheet" href="/static/css/user.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="card search-card">
+      <div class="card-body">
+        <form class="search-form" id="search-form">
+          <div class="search-item">
+            <label for="keyword-input">用户名 / 昵称</label>
+            <input class="form-control form-control-sm" id="keyword-input" placeholder="请输入用户名或昵称" autocomplete="off">
+          </div>
+          <div class="search-item">
+            <label for="status-filter">状态</label>
+            <select class="form-select form-select-sm" id="status-filter">
+              <option value="-1">全部</option>
+              <option value="1">正常</option>
+              <option value="0">停用</option>
+            </select>
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-default btn-sm" type="reset">重置</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" id="table-card">
+      <div class="card-body">
+        <div class="toolbar">
+          <button class="btn btn-primary btn-sm" id="btn-add" type="button">＋ 新增用户</button>
+          <button class="btn btn-default btn-sm" id="btn-refresh" type="button">刷新</button>
+          <span class="toolbar-note">共 <strong id="user-count">0</strong> 个用户</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm align-middle">
+            <thead>
+              <tr>
+                <th style="width:60px;">ID</th>
+                <th>用户名</th>
+                <th>昵称</th>
+                <th style="width:90px;">角色</th>
+                <th>手机</th>
+                <th style="width:80px;">状态</th>
+                <th>最后登录</th>
+                <th>创建时间</th>
+                <th style="width:250px;">操作</th>
+              </tr>
+            </thead>
+            <tbody id="user-tbody">
+              <tr><td colspan="9" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="user-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="user-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <form class="modal-content" id="user-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="user-modal-title">新增用户</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="user-username">用户名 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="user-username" name="username" maxlength="20" required autocomplete="off">
+              <div class="form-text">3-20 位字母、数字或下划线</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="user-nickname">昵称</label>
+              <input class="form-control form-control-sm" id="user-nickname" name="nickname" maxlength="50" autocomplete="off">
+            </div>
+            <div class="col-md-6" id="user-password-wrap">
+              <label class="form-label" for="user-password">密码 <span class="text-danger">*</span></label>
+              <input class="form-control form-control-sm" id="user-password" name="password" type="password" minlength="6" maxlength="100" autocomplete="new-password">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="user-role">角色</label>
+              <select class="form-select form-select-sm" id="user-role" name="role">
+                <option value="teacher">教师</option>
+                <option value="admin">管理员</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="user-phone">手机</label>
+              <input class="form-control form-control-sm" id="user-phone" name="phone" maxlength="20" autocomplete="off">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="user-email">邮箱</label>
+              <input class="form-control form-control-sm" id="user-email" name="email" maxlength="100" autocomplete="off">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="user-status">状态</label>
+              <select class="form-select form-select-sm" id="user-status" name="status">
+                <option value="1">正常</option>
+                <option value="0">停用</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="notice" id="user-edit-hint" hidden>
+                编辑用户不会修改密码；如需重置密码，请使用列表中的“重置密码”。
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">取消</button>
+          <button class="btn btn-primary btn-sm" id="user-submit" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal fade" id="password-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <form class="modal-content" id="password-form">
+        <div class="modal-header">
+          <h5 class="modal-title">重置密码</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="notice" id="password-user-info"></div>
+          <div class="mb-3">
+            <label class="form-label" for="new-password">新密码 <span class="text-danger">*</span></label>
+            <input class="form-control form-control-sm" id="new-password" name="password" type="password" minlength="6" maxlength="100" required autocomplete="new-password">
+          </div>
+          <div>
+            <label class="form-label" for="confirm-password">确认密码 <span class="text-danger">*</span></label>
+            <input class="form-control form-control-sm" id="confirm-password" name="confirm" type="password" minlength="6" maxlength="100" required autocomplete="new-password">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">取消</button>
+          <button class="btn btn-primary btn-sm" id="password-submit" type="submit">确认重置</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/user.js"></script>
+</body>
+</html>

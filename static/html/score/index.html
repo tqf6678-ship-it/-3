@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>成绩管理</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+  <link rel="stylesheet" href="/static/css/score.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="section-title">成绩录入</div>
+
+    <div class="card search-card">
+      <div class="card-body">
+        <form class="search-form" id="search-form">
+          <div class="search-item">
+            <label for="keyword-student-no">学号</label>
+            <input class="form-control form-control-sm" id="keyword-student-no" placeholder="请输入完整学号" autocomplete="off">
+          </div>
+          <div class="search-item">
+            <label for="keyword-name">姓名</label>
+            <input class="form-control form-control-sm" id="keyword-name" placeholder="请输入姓名" autocomplete="off">
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-default btn-sm" type="reset">重置</button>
+          </div>
+          <span class="toolbar-note">当前以学生 ID 作为学号</span>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" id="result-card">
+      <div class="card-body">
+        <div class="toolbar">
+          <span class="toolbar-note">共 <strong id="score-count">0</strong> 名学生</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm align-middle">
+            <thead>
+              <tr>
+                <th style="width:80px;">学号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年级</th>
+                <th>班级</th>
+                <th>任课老师</th>
+                <th style="width:100px;">操作</th>
+              </tr>
+            </thead>
+            <tbody id="score-tbody">
+              <tr><td colspan="7" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="student-pagination"></div>
+      </div>
+    </div>
+
+    <div class="section-title">成绩查询</div>
+
+    <div class="card search-card">
+      <div class="card-body">
+        <form class="search-form" id="score-filter-form">
+          <div class="search-item">
+            <label for="filter-student-no">学号</label>
+            <input class="form-control form-control-sm" id="filter-student-no" placeholder="请输入完整学号" autocomplete="off">
+          </div>
+          <div class="search-item">
+            <label for="filter-name">姓名</label>
+            <input class="form-control form-control-sm" id="filter-name" placeholder="请输入姓名" autocomplete="off">
+          </div>
+          <div class="search-item">
+            <label for="filter-class">班级</label>
+            <select class="form-select form-select-sm" id="filter-class">
+              <option value="0">全部班级</option>
+            </select>
+          </div>
+          <div class="search-item">
+            <label for="filter-subject">科目</label>
+            <select class="form-select form-select-sm" id="filter-subject">
+              <option value="0">全部科目</option>
+            </select>
+          </div>
+          <div class="search-item">
+            <label for="filter-min">最低分</label>
+            <input class="form-control form-control-sm score-filter-number" id="filter-min" type="number" min="0" max="150" step="0.5" placeholder="0">
+          </div>
+          <div class="search-item">
+            <label for="filter-max">最高分</label>
+            <input class="form-control form-control-sm score-filter-number" id="filter-max" type="number" min="0" max="150" step="0.5" placeholder="150">
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-primary btn-sm" type="submit">查询</button>
+            <button class="btn btn-default btn-sm" type="reset">重置</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" id="score-list-card">
+      <div class="card-body">
+        <div class="toolbar">
+          <span class="toolbar-note">共 <strong id="score-list-count">0</strong> 条 · 按成绩从高到低排列</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover table-sm align-middle">
+            <thead>
+              <tr>
+                <th style="width:80px;">学号</th>
+                <th>学生</th>
+                <th>年级</th>
+                <th>班级</th>
+                <th>科目</th>
+                <th style="width:100px;">成绩 ↓</th>
+              </tr>
+            </thead>
+            <tbody id="score-list-tbody">
+              <tr><td colspan="6" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="score-list-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="score-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="score-modal-title">成绩录入</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="score-student-info" id="score-student-info"></div>
+
+          <div class="table-responsive">
+            <table class="table table-sm align-middle score-subject-table">
+              <thead>
+                <tr>
+                  <th>科目</th>
+                  <th>任课教师</th>
+                  <th>当前成绩</th>
+                  <th style="width:150px;">新成绩</th>
+                </tr>
+              </thead>
+              <tbody id="score-subject-tbody">
+                <tr><td colspan="4" class="table-empty">加载中…</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="score-modal-hint">成绩范围 0-150，可保留小数；留空表示暂不修改该科。</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">关闭</button>
+          <button class="btn btn-primary btn-sm" id="score-save" type="button">保存成绩</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/score.js"></script>
+</body>
+</html>

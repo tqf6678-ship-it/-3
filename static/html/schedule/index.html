@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>课表管理</title>
+  <script src="/static/js/auth.js"></script>
+  <link rel="stylesheet" href="/static/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/common.css">
+  <link rel="stylesheet" href="/static/css/schedule.css">
+</head>
+<body class="inner-body">
+  <div class="page-container">
+    <div class="notice" id="schedule-notice" hidden></div>
+
+    <div class="card search-card">
+      <div class="card-body">
+        <div class="search-form">
+          <div class="search-item">
+            <label for="class-select">班级</label>
+            <select class="form-select form-select-sm" id="class-select">
+              <option value="">正在加载…</option>
+            </select>
+          </div>
+          <div class="search-actions">
+            <button class="btn btn-default btn-sm" id="btn-refresh" type="button">刷新</button>
+          </div>
+          <span class="toolbar-note" id="schedule-summary"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="timetable-card">
+      <div class="card-body">
+        <div class="timetable-toolbar">
+          <h2 class="timetable-title" id="timetable-title">班级课表</h2>
+          <span class="toolbar-note">点击空白格子添加课程，点击已有课程进行编辑</span>
+        </div>
+
+        <div class="table-responsive timetable-wrap">
+          <table class="timetable">
+            <thead>
+              <tr id="timetable-head"></tr>
+            </thead>
+            <tbody id="timetable-body">
+              <tr><td colspan="8" class="table-empty">正在加载…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="schedule-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <form class="modal-content" id="schedule-form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="schedule-modal-title">添加课程</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-6">
+              <label class="form-label" for="schedule-weekday">星期</label>
+              <select class="form-select form-select-sm" id="schedule-weekday" name="weekday" disabled></select>
+            </div>
+            <div class="col-6">
+              <label class="form-label" for="schedule-period">节次</label>
+              <select class="form-select form-select-sm" id="schedule-period" name="period" disabled></select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="schedule-subject">课程 <span class="text-danger">*</span></label>
+              <select class="form-select form-select-sm" id="schedule-subject" name="subject_id"></select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="schedule-teacher">教师 <span class="text-danger">*</span></label>
+              <select class="form-select form-select-sm" id="schedule-teacher" name="teacher_id"></select>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="schedule-location">上课地点</label>
+              <input class="form-control form-control-sm" id="schedule-location" name="location" maxlength="100" placeholder="例如：教学楼 A-101">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger btn-sm me-auto" id="schedule-delete" type="button" hidden>删除课程</button>
+          <button class="btn btn-default btn-sm" type="button" data-bs-dismiss="modal">取消</button>
+          <button class="btn btn-primary btn-sm" id="schedule-submit" type="submit">保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/schedule.js"></script>
+</body>
+</html>
